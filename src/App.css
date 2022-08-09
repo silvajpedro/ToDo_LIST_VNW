@@ -65,7 +65,7 @@ color:white;
 }
 .removeEverything{
   position: relative;
-  top: 8vh;
+  top: 9vh;
   right:-23vw;
   cursor: pointer;
   transition: ease-in-out 0.6s;
@@ -92,4 +92,12 @@ color:white;
 .erase, .capslock{
   font-weight: 900;
 }
-
+.botaoEspaco{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+.teclaEspaco{
+  width: 5vw;
+}

@@ -5,6 +5,7 @@ import addImage from "./assets/add.png"
 import removeImage from "./assets/remove.png";
 import teclado from "./assets/teclado.png";
 import removeTudo from "./assets/removetudo.png";
+import espaco from "./assets/espacoteclado.png"
 
 const FatherBox = styled.section`
     position:absolute;
@@ -946,117 +947,117 @@ export default class Main extends Component {
     }
     crescerLetra = () => {
         if (this.state.LetraMaiscula === 0) {
-            const a = document.getElementsByTagName('button')[1]
+            const a = document.getElementsByTagName('button')[2]
             a.innerHTML = "A"
-            const b = document.getElementsByTagName('button')[2]
+            const b = document.getElementsByTagName('button')[15]
             b.innerHTML = "B"
-            const c = document.getElementsByTagName('button')[3]
+            const c = document.getElementsByTagName('button')[9]
             c.innerHTML = "C"
-            const d = document.getElementsByTagName('button')[4]
+            const d = document.getElementsByTagName('button')[8]
             d.innerHTML = "D"
-            const e = document.getElementsByTagName('button')[5]
+            const e = document.getElementsByTagName('button')[7]
             e.innerHTML = "E"
-            const f = document.getElementsByTagName('button')[6]
+            const f = document.getElementsByTagName('button')[11]
             f.innerHTML = "F"
-            const g = document.getElementsByTagName('button')[7]
+            const g = document.getElementsByTagName('button')[14]
             g.innerHTML = "G"
-            const h = document.getElementsByTagName('button')[8]
+            const h = document.getElementsByTagName('button')[17]
             h.innerHTML = "H"
-            const i = document.getElementsByTagName('button')[9]
+            const i = document.getElementsByTagName('button')[22]
             i.innerHTML = "I"
-            const j = document.getElementsByTagName('button')[10]
+            const j = document.getElementsByTagName('button')[20]
             j.innerHTML = "J"
-            const k = document.getElementsByTagName('button')[11]
+            const k = document.getElementsByTagName('button')[23]
             k.innerHTML = "K"
-            const l = document.getElementsByTagName('button')[12]
+            const l = document.getElementsByTagName('button')[26]
             l.innerHTML = "L"
-            const ç = document.getElementsByTagName('button')[13]
+            const ç = document.getElementsByTagName('button')[27]
             ç.innerHTML = "Ç"
-            const m = document.getElementsByTagName('button')[14]
+            const m = document.getElementsByTagName('button')[21]
             m.innerHTML = "M"
-            const n = document.getElementsByTagName('button')[15]
+            const n = document.getElementsByTagName('button')[18]
             n.innerHTML = "N"
-            const o = document.getElementsByTagName('button')[16]
+            const o = document.getElementsByTagName('button')[25]
             o.innerHTML = "O"
-            const p = document.getElementsByTagName('button')[17]
+            const p = document.getElementsByTagName('button')[24]
             p.innerHTML = "P"
-            const q = document.getElementsByTagName('button')[18]
+            const q = document.getElementsByTagName('button')[1]
             q.innerHTML = "Q"
-            const r = document.getElementsByTagName('button')[19]
+            const r = document.getElementsByTagName('button')[10]
             r.innerHTML = "R"
-            const s = document.getElementsByTagName('button')[20]
+            const s = document.getElementsByTagName('button')[5]
             s.innerHTML = "S"
-            const t = document.getElementsByTagName('button')[21]
+            const t = document.getElementsByTagName('button')[13]
             t.innerHTML = "T"
-            const u = document.getElementsByTagName('button')[22]
+            const u = document.getElementsByTagName('button')[19]
             u.innerHTML = "U"
-            const v = document.getElementsByTagName('button')[23]
+            const v = document.getElementsByTagName('button')[12]
             v.innerHTML = "V"
-            const w = document.getElementsByTagName('button')[24]
+            const w = document.getElementsByTagName('button')[4]
             w.innerHTML = "W"
-            const x = document.getElementsByTagName('button')[25]
+            const x = document.getElementsByTagName('button')[6]
             x.innerHTML = "X"
-            const y = document.getElementsByTagName('button')[26]
+            const y = document.getElementsByTagName('button')[16]
             y.innerHTML = "Y"
-            const z = document.getElementsByTagName('button')[27]
+            const z = document.getElementsByTagName('button')[3]
             z.innerHTML = "Z"
             this.setState({
                 LetraMaiscula: this.state.LetraMaiscula + 1
             })
         } else if (this.state.LetraMaiscula === 1) {
-            const a = document.getElementsByTagName('button')[1]
+            const a = document.getElementsByTagName('button')[2]
             a.innerHTML = "a"
-            const b = document.getElementsByTagName('button')[2]
+            const b = document.getElementsByTagName('button')[15]
             b.innerHTML = "b"
-            const c = document.getElementsByTagName('button')[3]
+            const c = document.getElementsByTagName('button')[9]
             c.innerHTML = "c"
-            const d = document.getElementsByTagName('button')[4]
+            const d = document.getElementsByTagName('button')[8]
             d.innerHTML = "d"
-            const e = document.getElementsByTagName('button')[5]
+            const e = document.getElementsByTagName('button')[7]
             e.innerHTML = "e"
-            const f = document.getElementsByTagName('button')[6]
+            const f = document.getElementsByTagName('button')[11]
             f.innerHTML = "f"
-            const g = document.getElementsByTagName('button')[7]
+            const g = document.getElementsByTagName('button')[14]
             g.innerHTML = "g"
-            const h = document.getElementsByTagName('button')[8]
+            const h = document.getElementsByTagName('button')[17]
             h.innerHTML = "h"
-            const i = document.getElementsByTagName('button')[9]
+            const i = document.getElementsByTagName('button')[22]
             i.innerHTML = "i"
-            const j = document.getElementsByTagName('button')[10]
+            const j = document.getElementsByTagName('button')[20]
             j.innerHTML = "j"
-            const k = document.getElementsByTagName('button')[11]
+            const k = document.getElementsByTagName('button')[23]
             k.innerHTML = "k"
             const l = document.getElementsByTagName('button')[12]
             l.innerHTML = "l"
-            const ç = document.getElementsByTagName('button')[13]
+            const ç = document.getElementsByTagName('button')[27]
             ç.innerHTML = "ç"
-            const m = document.getElementsByTagName('button')[14]
+            const m = document.getElementsByTagName('button')[21]
             m.innerHTML = "m"
-            const n = document.getElementsByTagName('button')[15]
+            const n = document.getElementsByTagName('button')[18]
             n.innerHTML = "n"
-            const o = document.getElementsByTagName('button')[16]
+            const o = document.getElementsByTagName('button')[25]
             o.innerHTML = "o"
-            const p = document.getElementsByTagName('button')[17]
+            const p = document.getElementsByTagName('button')[24]
             p.innerHTML = "p"
-            const q = document.getElementsByTagName('button')[18]
+            const q = document.getElementsByTagName('button')[1]
             q.innerHTML = "q"
-            const r = document.getElementsByTagName('button')[19]
+            const r = document.getElementsByTagName('button')[10]
             r.innerHTML = "r"
-            const s = document.getElementsByTagName('button')[20]
+            const s = document.getElementsByTagName('button')[5]
             s.innerHTML = "s"
-            const t = document.getElementsByTagName('button')[21]
+            const t = document.getElementsByTagName('button')[13]
             t.innerHTML = "t"
-            const u = document.getElementsByTagName('button')[22]
+            const u = document.getElementsByTagName('button')[19]
             u.innerHTML = "u"
-            const v = document.getElementsByTagName('button')[23]
+            const v = document.getElementsByTagName('button')[12]
             v.innerHTML = "v"
-            const w = document.getElementsByTagName('button')[24]
+            const w = document.getElementsByTagName('button')[4]
             w.innerHTML = "w"
-            const x = document.getElementsByTagName('button')[25]
+            const x = document.getElementsByTagName('button')[6]
             x.innerHTML = "x"
-            const y = document.getElementsByTagName('button')[26]
+            const y = document.getElementsByTagName('button')[16]
             y.innerHTML = "y"
-            const z = document.getElementsByTagName('button')[27]
+            const z = document.getElementsByTagName('button')[3]
             z.innerHTML = "z"
             this.setState({
                 LetraMaiscula: this.state.LetraMaiscula - 1
@@ -1117,41 +1118,41 @@ export default class Main extends Component {
                 <img className="removeEverything" onClick={this.removerTudo} src={removeTudo} alt="Icone para remover todas as informações" />
                 <Teclado onClick={this.keyboard} src={teclado} />
                 <section className="Buttons">
+                    <button onClick={this.Q}>q</button> 
                     <button onClick={this.A}>a</button>
+                    <button onClick={this.Z}>z</button> 
+                    <button onClick={this.W}>w</button> 
+                    <button onClick={this.S}>s</button> 
+                    <button onClick={this.X}>x</button> 
+                    <button onClick={this.E}>e</button> 
+                    <button onClick={this.D}>d</button> 
+                    <button onClick={this.C}>c</button> 
+                    <button onClick={this.R}>r</button> 
+                    <button onClick={this.F}>f</button> 
+                    <button onClick={this.V}>v</button> 
+                    <button onClick={this.T}>t</button> 
+                    <button onClick={this.G}>g</button> 
                     <button onClick={this.B}>b</button>
-                    <button onClick={this.C}>c</button>
-                    <button onClick={this.D}>d</button>
-                    <button onClick={this.E}>e</button>
-                    <button onClick={this.F}>f</button>
-                    <button onClick={this.G}>g</button>
-                    <button onClick={this.H}>h</button>
-                    <button onClick={this.I}>i</button>
-                    <button onClick={this.J}>j</button>
-                    <button onClick={this.K}>k</button>
-                    <button onClick={this.L}>l</button>
-                    <button onClick={this.cedilha}>ç</button>
-                    <button onClick={this.M}>m</button>
-                    <button onClick={this.N}>n</button>
-                    <button onClick={this.O}>o</button>
-                    <button onClick={this.P}>p</button>
-                    <button onClick={this.Q}>q</button>
-                    <button onClick={this.R}>r</button>
-                    <button onClick={this.S}>s</button>
-                    <button onClick={this.T}>t</button>
-                    <button onClick={this.U}>u</button>
-                    <button onClick={this.V}>v</button>
-                    <button onClick={this.W}>w</button>
-                    <button onClick={this.X}>x</button>
                     <button onClick={this.Y}>y</button>
-                    <button onClick={this.Z}>z</button>
-                    <button onClick={this.espaço}>esp</button>
-                    <button className="capslock" onClick={this.crescerLetra}>⇧</button>
+                    <button onClick={this.H}>h</button> 
+                    <button onClick={this.N}>n</button> 
+                    <button onClick={this.U}>u</button> 
+                    <button onClick={this.J}>j</button> 
+                    <button onClick={this.M}>m</button> 
+                    <button onClick={this.I}>i</button> 
+                    <button onClick={this.K}>k</button> 
+                    <button onClick={this.P}>p</button> 
+                    <button onClick={this.O}>o</button> 
+                    <button onClick={this.L}>l</button> 
+                    <button onClick={this.cedilha}>ç</button> 
                     <button onClick={this.virgula}>,</button>
                     <button onClick={this.pontoFinal}>.</button>
                     <button onClick={this.aspas}>"</button>
                     <button onClick={this.agudo}>´</button>
                     <button onClick={this.circunflexo}>^</button>
                     <button onClick={this.til}>~</button>
+                    <button className="botaoEspaco" onClick={this.espaço}><img className="teclaEspaco" src={espaco} alt="icone tecla de espaço" /></button>
+                    <button className="capslock" onClick={this.crescerLetra}>⇧</button>
                     <button className="erase" onClick={this.ApagarLetra}>⌫</button>
                 </section>
             </FatherBox>
